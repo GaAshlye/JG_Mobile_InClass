@@ -80,6 +80,10 @@ class LoginForm extends Component {
     render() {
         return (
             <div>
+                <div className="row p-5">
+                
+                </div>
+                 <div className="container background text-left col-md">
                 <form onSubmit={this.onFormSubmit}>
                     <EmailInput onEmailInputChange={this.onEmailChange} 
                      
@@ -89,6 +93,7 @@ class LoginForm extends Component {
                     <button type="submit" 
                             className="btn btn-primary">Submit</button>
                 </form>
+                </div>
             </div>            
         );
     };
