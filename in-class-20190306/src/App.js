@@ -7,9 +7,13 @@ import LoginForm from './components/LoginForm';
 class App extends Component {
   render() {
     return (
+      
       <div className="App">
+      <div class="container">
         <LoginForm />
+        </div>
       </div>
+
     );
   }
 }
