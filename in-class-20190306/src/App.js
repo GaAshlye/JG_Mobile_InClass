@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import ReactMapboxGl, { Layer, Feature } from 'react-mapbox-gl';
 import logo from './logo.svg';
 import './App.css';
 import LoginForm from './components/LoginForm';
