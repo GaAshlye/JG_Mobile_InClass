@@ -85,10 +85,7 @@ class LoginForm extends Component {
                 </div>
                  <div className="container background text-left col-md">
                 <form onSubmit={this.onFormSubmit}>
-                    <EmailInput onEmailInputChange={this.onEmailChange} 
-                     
-
-                               />
+                    <EmailInput onEmailInputChange={this.onEmailChange} />
                     <PasswordInput onPasswordInputChange={this.onEmailChange}/>
                     <button type="submit" 
                             className="btn btn-primary">Submit</button>

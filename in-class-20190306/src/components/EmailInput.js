@@ -35,11 +35,13 @@ class EmailInput extends Component {
                 <input 
                     aria-describedby="emailHelp" 
                     className="form-control" 
+                    pattern="[^ @]*@[^ @]*"
+                    tittle="Please enter a valid email"
                     id="exampleInputEmail1" 
                     onChange={this.onEmailChange}
                     placeholder="Enter email"
                     type="email"
-                    value={this.state.email}  />
+                    value={this.state.email} required />
             </div>
         );
     };
